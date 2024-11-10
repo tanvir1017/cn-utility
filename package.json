@@ -1,0 +1,35 @@
+{
+  "name": "cn-utility",
+  "version": "1.0.0",
+  "description": "This function combines classes using clsx, then merges them using twMerge to handle any conflicting Tailwind classes.",
+  "main": "./src/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvir1017/cn-utility.git"
+  },
+  "author": "https://github.com/tanvir1017",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanvir1017/cn-utility/issues"
+  },
+  "homepage": "https://github.com/tanvir1017/cn-utility#readme",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "keywords": [
+    "tailwind",
+    "clsx",
+    "utility",
+    "css",
+    "classes"
+  ]
+}
