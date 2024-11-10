@@ -1,6 +1,6 @@
 {
   "name": "cn-utility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This function combines classes using clsx, then merges them using twMerge to handle any conflicting Tailwind classes.",
   "main": "./src/index.js",
   "types": "./build/index.d.ts",
